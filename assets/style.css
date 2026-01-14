@@ -1,0 +1,72 @@
+/* Page background + typography */
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  background: #0b1220;
+  min-height: 100vh;
+  color: #e6eefc;
+}
+
+/* Header */
+.header {
+  padding: 18px 18px 6px 18px;
+  margin-bottom: 14px;
+}
+
+.title {
+  margin: 0;
+  font-size: 34px;
+  letter-spacing: 0.2px;
+}
+
+.subtitle {
+  margin: 8px 0 0 0;
+  color: #b7c6e6;
+  font-size: 15px;
+}
+
+/* Cards */
+.card {
+  background: #121a2b;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+  padding: 14px 16px;
+  margin-bottom: 14px;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.control-label {
+  font-weight: 700;
+  color: #dbe7ff;
+}
+
+/* Radio styling */
+.radio label {
+  margin-right: 14px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.10);
+  cursor: pointer;
+}
+
+.radio input {
+  margin-right: 6px;
+}
+
+.footer {
+  margin-top: 18px;
+  color: #95a8cf;
+  font-size: 12px;
+  text-align: center;
+}
